@@ -1,5 +1,7 @@
+/* map over the show list to display information about a show when clicked
+
+*/
 function ShowSelection({ shows , setSelectedShow }) {
-    
     return (
     <menu className="showSelect">
     {shows.map((show) => (
