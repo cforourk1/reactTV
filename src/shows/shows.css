@@ -1,9 +1,10 @@
 .shows {
   display: flex;
+  gap: 1rem;
 }
 
 .show {
-  padding: 0 1ch;
+  padding: 0 1rem;
 }
 
 .show:not(:last-child) {
