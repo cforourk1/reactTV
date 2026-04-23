@@ -1,10 +1,12 @@
 function ShowSelection({ shows , setSelectedShow }) {
+    
     return (
     <menu className="showSelect">
     {shows.map((show) => (
-        <div className={"showCard" + show} key={show} onClick={() =>
-         setSelectedShow(show)}>
-         </div>
+        <a className="show" key={show.name} onClick={() =>
+         setSelectedShow(show)}>{show.name}
+
+         </a>
 
     ))}
 </menu>
