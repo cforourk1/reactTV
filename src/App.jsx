@@ -6,8 +6,8 @@
 
 
 import { useState } from "react";
-import ShowDetails from "./ShowDetails";
-import ShowSelection from "./ShowSelection";
+import ShowDetails from "./shows/ShowDetails";
+import ShowSelection from "./shows/ShowSelection";
 import { tvShows } from "./shows/data";
 
 

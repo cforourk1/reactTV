@@ -1,6 +1,15 @@
-import "./shows.css";
+function ShowSelection({ shows , setSelectedShow }) {
+    
+    return (
+    <menu className="showSelect">
+    {shows.map((show) => (
+        <a className="show" key={show.name} onClick={() =>
+         setSelectedShow(show)}>{show.name}
 
-/** A navbar that allows users to choose between a list of shows */
-export default function ShowSelection() {
-  return <nav className="shows"></nav>;
+         </a>
+
+    ))}
+</menu>
+    );
 }
+export default ShowSelection
