@@ -26,6 +26,7 @@ return (
     <>
         <header>
             <p>React TV</p>
+{/*      */}
             <ShowSelection shows={tvShows} setSelectedShow={setSelectedShow} />
         </header>
         <main>
