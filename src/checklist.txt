@@ -1,0 +1,20 @@
+ShowDetails.jsx:
+
+🔲 Accept show as a prop
+🔲 Add selectedEpisode state
+🔲 If no show → show message
+🔲 If show → render <EpisodeList> and <EpisodeDetails> with correct props
+
+ShowSelection.jsx:
+
+🔲 Accept shows and setSelectedShow as props
+🔲 Map over shows rendering each as <a className="show">
+🔲 onClick calls setSelectedShow with that show
+
+App.jsx:
+
+🔲 Import useState and tvShows from data
+🔲 Create shows state initialized to tvShows
+🔲 Create selectedShow state
+🔲 Render <ShowSelection> in header with correct props
+🔲 Render <ShowDetails> in main with correct props
